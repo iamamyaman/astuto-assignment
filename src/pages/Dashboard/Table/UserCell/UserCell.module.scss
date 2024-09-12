@@ -1,0 +1,23 @@
+.UserCell {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .Content {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    .Name {
+    }
+
+    .Username {
+      font-size: 12px;
+      color:#5D5D5D;
+    }
+  }
+}

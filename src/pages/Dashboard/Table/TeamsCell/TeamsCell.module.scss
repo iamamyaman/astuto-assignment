@@ -1,0 +1,43 @@
+.TeamsCell {
+    min-height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    max-width: 300px;
+    flex-wrap: wrap;
+    .TeamPill {
+      height: fit-content;
+      border-radius: 16px;
+      padding: 2px 8px;
+      background-color: #cce6ff;
+      color: #0080ff;
+      font-size: 12px;
+      font-weight: 700;
+
+      &.Product{
+        background-color: #99CCFF;
+        color:#004D99;
+      }
+
+      &.Development{
+        color:#1b538b;
+        background-color: #66B3FF;
+      }
+
+      &.Administration{
+        color:#499e90;
+        background-color: #d1ece9;
+      }
+
+      &.Design{
+        color: rgb(189, 98, 113);
+        background-color: rgb(255, 239, 242);
+      }
+
+      &.Expander{
+        background-color: #F2F2F2;
+        color: #2E2E2E;
+        cursor: pointer;
+      }
+    }
+  }

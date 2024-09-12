@@ -1,0 +1,83 @@
+.Pagination {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    margin-top: auto;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom: 0;
+    padding: 8px 12px;
+    justify-content: space-between;
+    background-color: white;
+    border-top:solid 2px #F2F2F2
+  }
+
+  .Next,.Prev{
+    flex: none;
+outline: none;
+border: none;
+background-color: transparent;
+display: flex;
+gap:5px;
+align-items: center;
+cursor: pointer;
+
+&.Disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+    div{
+      flex: none;
+      width: 14px;
+      height: 14px;
+      border:solid 2px #2E2E2E;
+      border-radius: 50%;
+    }
+   
+  }
+
+  .Pages{
+    display: flex;
+    gap:2px;
+    flex:none;
+
+    .Page {
+      flex: none;
+      width: 40px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      background-color: #fff;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.2s;
+     
+  
+      &.ActivePage {
+        background-color: #F0F8FF;
+        color: #0080FF;
+      }
+    
+      &:hover {
+        background-color: #e0e0e0;
+      }
+    
+      &:disabled {
+        background-color: #d0d0d0;
+        cursor: not-allowed;
+      }
+    }
+  }
+  
+ 
+  
+  
+  
+  .Dots {
+    padding: 6px 12px;
+  }
+  

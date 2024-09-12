@@ -1,0 +1,56 @@
+.Table {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  tr {
+    border-bottom: 1px solid #f2f2f2;
+  }
+
+  th,
+  td {
+    padding: 8px 16px;
+
+    color: #2e2e2e;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  th{
+
+    padding: 16px 14px;
+    font-weight: 400;
+    background-color: #f4f4f4;
+  }
+
+  .StatusPill {
+    width: fit-content;
+    border-radius: 12px;
+    padding: 2px 8px;
+    background-color: #cce6ff;
+    color: #0080ff;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .pagination {
+    margin: 10px 0;
+  }
+
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+
+  .pagination button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+}
